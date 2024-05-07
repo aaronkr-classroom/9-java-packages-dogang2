@@ -28,7 +28,7 @@ public class Ex1011 {
 		Calendar cal = Calendar.getInstance();
 		System.out.print("현재 날짜: ");
 		System.out.print(cal.get(Calendar.YEAR) + "년");
-		System.out.print(cal.get(Calendar.MONTH) + "월");
+		System.out.print(cal.get((Calendar.MONTH)+1) + "월");
 		System.out.print(cal.get(Calendar.DATE) + "일");
 		
 		Date my_bday = new Date(2002, 03, 23);
